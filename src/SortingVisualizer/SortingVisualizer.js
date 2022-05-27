@@ -103,23 +103,25 @@ export default function SortingVisualizer() {
   }
 
   return (
-    <div className="sorting-visualizer-wrapper">
-      <div className="array-container">
-        {array.map((value, idx) => {
-          return (
-            <div
-              className="array-bar"
-              key={idx}
-              style={{ height: `${value}px` }}
-            />
-          );
-        })}
+    <div className="vh-100 d-flex justify-content-center align-items-center" draggable="false">
+      <div className="sorting-visualizer-wrapper">
+        <div className="array-container">
+          {array.map((value, idx) => {
+            return (
+              <div
+                className="array-bar"
+                key={idx}
+                style={{ height: `${value}px` }}
+              />
+            );
+          })}
+        </div>
+        <button onClick={() => resetArray()}>Generate New Array</button>
+        <button onClick={() => runMergeSort()}>Merge Sort</button>
+        <button onClick={() => runQuickSort()}>Quick Sort</button>
+        {/* <button onClick={() => runHeapSort()}>Heap Sort</button> */}
+        <button onClick={() => runBubbleSort()}>Bubble Sort</button>
       </div>
-      <button onClick={() => resetArray()}>Generate New Array</button>
-      <button onClick={() => runMergeSort()}>Merge Sort</button>
-      <button onClick={() => runQuickSort()}>Quick Sort</button>
-      {/* <button onClick={() => runHeapSort()}>Heap Sort</button> */}
-      <button onClick={() => runBubbleSort()}>Bubble Sort</button>
     </div>
   );
 }

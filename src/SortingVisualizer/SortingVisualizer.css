@@ -1,12 +1,10 @@
 .array-container {
-    /* position: absolute; */
-    /* left: 100px; */
-    padding-top: 20px;
+    bottom: 0;
+    min-height: 730px !important;
 }
 
 .array-bar {
     width: 2px;
-    /* background-color: pink; */
     background-color: white;
     display: inline-block;
     margin: 0 1px;
