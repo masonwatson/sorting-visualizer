@@ -1,13 +1,22 @@
 {
   "files": {
-    "main.css": "/sorting-visualizer/static/css/main.d9e0fa55.css",
-    "main.js": "/sorting-visualizer/static/js/main.5a3536d7.js",
+    "main.css": "/sorting-visualizer/static/css/main.733114c9.css",
+    "main.js": "/sorting-visualizer/static/js/main.de48784b.js",
+    "static/media/Poppins-Thin.ttf": "/sorting-visualizer/static/media/Poppins-Thin.a61eaf4c2e4d44d6db6a.ttf",
+    "static/media/Poppins-ExtraLight.ttf": "/sorting-visualizer/static/media/Poppins-ExtraLight.94b768c07879dde09ab4.ttf",
+    "static/media/Poppins-Light.ttf": "/sorting-visualizer/static/media/Poppins-Light.f41b63c0bb0963ace821.ttf",
+    "static/media/Poppins-Regular.ttf": "/sorting-visualizer/static/media/Poppins-Regular.8081832fc5cfbf634aa6.ttf",
+    "static/media/Poppins-Medium.ttf": "/sorting-visualizer/static/media/Poppins-Medium.9e1bb626874ed49aa343.ttf",
+    "static/media/Poppins-SemiBold.ttf": "/sorting-visualizer/static/media/Poppins-SemiBold.cce5625b56ec678e4202.ttf",
+    "static/media/Poppins-Bold.ttf": "/sorting-visualizer/static/media/Poppins-Bold.404e299be26d78e66794.ttf",
+    "static/media/Poppins-ExtraBold.ttf": "/sorting-visualizer/static/media/Poppins-ExtraBold.4ed78cd5d64af4efc3c7.ttf",
+    "static/media/Poppins-Black.ttf": "/sorting-visualizer/static/media/Poppins-Black.eacee5bb9c7fee5939ae.ttf",
     "index.html": "/sorting-visualizer/index.html",
-    "main.d9e0fa55.css.map": "/sorting-visualizer/static/css/main.d9e0fa55.css.map",
-    "main.5a3536d7.js.map": "/sorting-visualizer/static/js/main.5a3536d7.js.map"
+    "main.733114c9.css.map": "/sorting-visualizer/static/css/main.733114c9.css.map",
+    "main.de48784b.js.map": "/sorting-visualizer/static/js/main.de48784b.js.map"
   },
   "entrypoints": [
-    "static/css/main.d9e0fa55.css",
-    "static/js/main.5a3536d7.js"
+    "static/css/main.733114c9.css",
+    "static/js/main.de48784b.js"
   ]
 }
