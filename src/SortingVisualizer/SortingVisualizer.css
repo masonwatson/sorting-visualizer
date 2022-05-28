@@ -1,11 +1,32 @@
-.array-container {
+/* .sorting-visualizer-wrapper {
+    min-height: 900px;
+} */
+
+.absolute-bottom {
     bottom: 0;
-    min-height: 730px !important;
 }
 
 .array-bar {
-    width: 2px;
+    width: 8px;
     background-color: white;
     display: inline-block;
     margin: 0 1px;
+}
+
+.btn {
+    color: white;
+    margin-top: 17px;
+    margin-right: 15px;
+    border-color: white;
+    background: transparent !important;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    font: normal normal normal 14px/22px Poppins-Medium;
+}
+
+.btn:hover {
+    color: white;
+    transition: all 0.2s ease-in;
+    border-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.35);
+    background-color: rgba(255, 255, 255, 0.18) !important;
 }
