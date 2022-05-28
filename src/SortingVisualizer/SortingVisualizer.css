@@ -1,6 +1,6 @@
-/* .sorting-visualizer-wrapper {
-    min-height: 900px;
-} */
+.sorting-visualizer-wrapper {
+    margin-top: 10px;
+}
 
 .absolute-bottom {
     bottom: 0;
@@ -11,6 +11,12 @@
     background-color: white;
     display: inline-block;
     margin: 0 1px;
+}
+
+.button-container {
+    position: relative;
+    display: block;
+    margin: auto;
 }
 
 .btn {
