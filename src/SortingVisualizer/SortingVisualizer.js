@@ -102,56 +102,23 @@ export default function SortingVisualizer() {
   }
 
   return (
-    <div
-      className="vh-100 d-flex justify-content-center align-items-center"
-      draggable="false"
-    >
-      <div className="col-md-6 sorting-visualizer-wrapper ">
-          <div className="array-container mb-auto">
-            {array.map((value, idx) => {
-              return (
-                <div
-                  className="array-bar"
-                  key={idx}
-                  style={{ height: `${value}px` }}
-                />
-              );
-            })}
-          </div>
+    <div className="sorting-visualizer-container">
+      <div className="sorting-visualizer-content">
+        {array.map((value, idx) => {
+          return (
+            <div
+              className="array-bar"
+              key={idx}
+              style={{ height: `${value}px` }}
+            />
+          );
+        })}
       </div>
-      <div className="col-md-2">
-        <div className="row button-container">
-          <button
-            type="button"
-            className="btn btn-clear inline-block-content"
-            onClick={() => resetArray()}
-          >
-            Generate New Array
-          </button>
-          <button
-            type="button"
-            className="btn btn-clear inline-block-content"
-            onClick={() => runMergeSort()}
-          >
-            Merge Sort
-          </button>
-          <button
-            type="button"
-            className="btn btn-clear inline-block-content"
-            onClick={() => runQuickSort()}
-          >
-            Quick Sort
-          </button>
-          {/* <button type="button"
-                className="btn btn-clear inline-block-content" onClick={() => runHeapSort()}>Heap Sort</button> */}
-          <button
-            type="button"
-            className="btn btn-clear inline-block-content"
-            onClick={() => runBubbleSort()}
-          >
-            Bubble Sort
-          </button>
-        </div>
+      <div className="sorting-visualizer-buttons">
+        <button onClick={() => resetArray()}>Generate New Array</button>
+        <button onClick={() => runMergeSort()}>Merge Sort</button>
+        <button onClick={() => runQuickSort()}>Quick Sort</button>
+        <button onClick={() => runBubbleSort()}>Bubble Sort</button>
       </div>
     </div>
   );
