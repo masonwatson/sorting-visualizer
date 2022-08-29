@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/sorting-visualizer/static/css/main.db3ac2dd.css",
+    "main.css": "/sorting-visualizer/static/css/main.9dd44e53.css",
     "main.js": "/sorting-visualizer/static/js/main.26324197.js",
     "static/media/Poppins-Thin.ttf": "/sorting-visualizer/static/media/Poppins-Thin.a61eaf4c2e4d44d6db6a.ttf",
     "static/media/Poppins-ExtraLight.ttf": "/sorting-visualizer/static/media/Poppins-ExtraLight.94b768c07879dde09ab4.ttf",
@@ -12,11 +12,11 @@
     "static/media/Poppins-ExtraBold.ttf": "/sorting-visualizer/static/media/Poppins-ExtraBold.4ed78cd5d64af4efc3c7.ttf",
     "static/media/Poppins-Black.ttf": "/sorting-visualizer/static/media/Poppins-Black.eacee5bb9c7fee5939ae.ttf",
     "index.html": "/sorting-visualizer/index.html",
-    "main.db3ac2dd.css.map": "/sorting-visualizer/static/css/main.db3ac2dd.css.map",
+    "main.9dd44e53.css.map": "/sorting-visualizer/static/css/main.9dd44e53.css.map",
     "main.26324197.js.map": "/sorting-visualizer/static/js/main.26324197.js.map"
   },
   "entrypoints": [
-    "static/css/main.db3ac2dd.css",
+    "static/css/main.9dd44e53.css",
     "static/js/main.26324197.js"
   ]
 }
